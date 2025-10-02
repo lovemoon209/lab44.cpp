@@ -1,0 +1,653 @@
+Last login: Wed Oct  1 15:52:00 on ttys024
+admin@MacBook-Air-admin ~ % git init
+Reinitialized existing Git repository in /Users/admin/.git/
+admin@MacBook-Air-admin ~ % git status
+warning: could not open directory 'Pictures/Photos Library.photoslibrary/': Operation not permitted
+warning: could not open directory '.Trash/': Operation not permitted
+warning: could not open directory 'Documents/': Operation not permitted
+warning: could not open directory 'Downloads/': Operation not permitted
+On branch main
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	modified:   .zsh_history
+	renamed:    .zsh_sessions/9DE10BF1-AF4B-46FE-9B64-2868B731C3D3.historynew -> .zsh_sessions/3E6BACB3-0BA5-4EC3-BCBD-522F433A4523.historynew
+	new file:   .zsh_sessions/68593E61-8412-452B-8962-E04DF7A41A5A.history
+	new file:   .zsh_sessions/68593E61-8412-452B-8962-E04DF7A41A5A.session
+	new file:   .zsh_sessions/9DE10BF1-AF4B-46FE-9B64-2868B731C3D3.history
+	new file:   .zsh_sessions/9DE10BF1-AF4B-46FE-9B64-2868B731C3D3.session
+	new file:   Movies/.DS_Store
+	new file:   Movies/.localized
+	new file:   Movies/TV/.DS_Store
+	new file:   Movies/TV/Media.localized/.DS_Store
+	new file:   Movies/TV/Media.localized/.Media Preferences.plist
+	new file:   Movies/TV/Media.localized/.localized/ar.strings
+	new file:   Movies/TV/Media.localized/.localized/ca.strings
+	new file:   Movies/TV/Media.localized/.localized/cs.strings
+	new file:   Movies/TV/Media.localized/.localized/da.strings
+	new file:   Movies/TV/Media.localized/.localized/de.strings
+	new file:   Movies/TV/Media.localized/.localized/el.strings
+	new file:   Movies/TV/Media.localized/.localized/en.strings
+	new file:   Movies/TV/Media.localized/.localized/en_AU.strings
+	new file:   Movies/TV/Media.localized/.localized/en_GB.strings
+	new file:   Movies/TV/Media.localized/.localized/es.strings
+	new file:   Movies/TV/Media.localized/.localized/es_419.strings
+	new file:   Movies/TV/Media.localized/.localized/fi.strings
+	new file:   Movies/TV/Media.localized/.localized/fr.strings
+	new file:   Movies/TV/Media.localized/.localized/fr_CA.strings
+	new file:   Movies/TV/Media.localized/.localized/he.strings
+	new file:   Movies/TV/Media.localized/.localized/hi.strings
+	new file:   Movies/TV/Media.localized/.localized/hr.strings
+	new file:   Movies/TV/Media.localized/.localized/hu.strings
+	new file:   Movies/TV/Media.localized/.localized/id.strings
+	new file:   Movies/TV/Media.localized/.localized/it.strings
+	new file:   Movies/TV/Media.localized/.localized/ja.strings
+	new file:   Movies/TV/Media.localized/.localized/ko.strings
+	new file:   Movies/TV/Media.localized/.localized/ms.strings
+	new file:   Movies/TV/Media.localized/.localized/nl.strings
+	new file:   Movies/TV/Media.localized/.localized/no.strings
+	new file:   Movies/TV/Media.localized/.localized/pl.strings
+	new file:   Movies/TV/Media.localized/.localized/pt.strings
+	new file:   Movies/TV/Media.localized/.localized/pt_PT.strings
+	new file:   Movies/TV/Media.localized/.localized/ro.strings
+	new file:   Movies/TV/Media.localized/.localized/ru.strings
+	new file:   Movies/TV/Media.localized/.localized/sk.strings
+	new file:   Movies/TV/Media.localized/.localized/sv.strings
+	new file:   Movies/TV/Media.localized/.localized/th.strings
+	new file:   Movies/TV/Media.localized/.localized/tr.strings
+	new file:   Movies/TV/Media.localized/.localized/uk.strings
+	new file:   Movies/TV/Media.localized/.localized/vi.strings
+	new file:   Movies/TV/Media.localized/.localized/zh_CN.strings
+	new file:   Movies/TV/Media.localized/.localized/zh_HK.strings
+	new file:   Movies/TV/Media.localized/.localized/zh_TW.strings
+	new file:   Movies/TV/Media.localized/Automatically Add To TV.localized/.localized/ar.strings
+	new file:   Movies/TV/Media.localized/Automatically Add To TV.localized/.localized/ca.strings
+	new file:   Movies/TV/Media.localized/Automatically Add To TV.localized/.localized/cs.strings
+	new file:   Movies/TV/Media.localized/Automatically Add To TV.localized/.localized/da.strings
+	new file:   Movies/TV/Media.localized/Automatically Add To TV.localized/.localized/de.strings
+	new file:   Movies/TV/Media.localized/Automatically Add To TV.localized/.localized/el.strings
+	new file:   Movies/TV/Media.localized/Automatically Add To TV.localized/.localized/en.strings
+	new file:   Movies/TV/Media.localized/Automatically Add To TV.localized/.localized/en_AU.strings
+	new file:   Movies/TV/Media.localized/Automatically Add To TV.localized/.localized/en_GB.strings
+	new file:   Movies/TV/Media.localized/Automatically Add To TV.localized/.localized/es.strings
+	new file:   Movies/TV/Media.localized/Automatically Add To TV.localized/.localized/es_419.strings
+	new file:   Movies/TV/Media.localized/Automatically Add To TV.localized/.localized/fi.strings
+	new file:   Movies/TV/Media.localized/Automatically Add To TV.localized/.localized/fr.strings
+	new file:   Movies/TV/Media.localized/Automatically Add To TV.localized/.localized/fr_CA.strings
+	new file:   Movies/TV/Media.localized/Automatically Add To TV.localized/.localized/he.strings
+	new file:   Movies/TV/Media.localized/Automatically Add To TV.localized/.localized/hi.strings
+	new file:   Movies/TV/Media.localized/Automatically Add To TV.localized/.localized/hr.strings
+	new file:   Movies/TV/Media.localized/Automatically Add To TV.localized/.localized/hu.strings
+	new file:   Movies/TV/Media.localized/Automatically Add To TV.localized/.localized/id.strings
+	new file:   Movies/TV/Media.localized/Automatically Add To TV.localized/.localized/it.strings
+	new file:   Movies/TV/Media.localized/Automatically Add To TV.localized/.localized/ja.strings
+	new file:   Movies/TV/Media.localized/Automatically Add To TV.localized/.localized/ko.strings
+	new file:   Movies/TV/Media.localized/Automatically Add To TV.localized/.localized/ms.strings
+	new file:   Movies/TV/Media.localized/Automatically Add To TV.localized/.localized/nl.strings
+	new file:   Movies/TV/Media.localized/Automatically Add To TV.localized/.localized/no.strings
+	new file:   Movies/TV/Media.localized/Automatically Add To TV.localized/.localized/pl.strings
+	new file:   Movies/TV/Media.localized/Automatically Add To TV.localized/.localized/pt.strings
+	new file:   Movies/TV/Media.localized/Automatically Add To TV.localized/.localized/pt_PT.strings
+	new file:   Movies/TV/Media.localized/Automatically Add To TV.localized/.localized/ro.strings
+	new file:   Movies/TV/Media.localized/Automatically Add To TV.localized/.localized/ru.strings
+	new file:   Movies/TV/Media.localized/Automatically Add To TV.localized/.localized/sk.strings
+	new file:   Movies/TV/Media.localized/Automatically Add To TV.localized/.localized/sv.strings
+	new file:   Movies/TV/Media.localized/Automatically Add To TV.localized/.localized/th.strings
+	new file:   Movies/TV/Media.localized/Automatically Add To TV.localized/.localized/tr.strings
+	new file:   Movies/TV/Media.localized/Automatically Add To TV.localized/.localized/uk.strings
+	new file:   Movies/TV/Media.localized/Automatically Add To TV.localized/.localized/vi.strings
+	new file:   Movies/TV/Media.localized/Automatically Add To TV.localized/.localized/zh_CN.strings
+	new file:   Movies/TV/Media.localized/Automatically Add To TV.localized/.localized/zh_HK.strings
+	new file:   Movies/TV/Media.localized/Automatically Add To TV.localized/.localized/zh_TW.strings
+	new file:   Movies/TV/Previous Libraries.localized/.localized/ar.strings
+	new file:   Movies/TV/Previous Libraries.localized/.localized/ca.strings
+	new file:   Movies/TV/Previous Libraries.localized/.localized/cs.strings
+	new file:   Movies/TV/Previous Libraries.localized/.localized/da.strings
+	new file:   Movies/TV/Previous Libraries.localized/.localized/de.strings
+	new file:   Movies/TV/Previous Libraries.localized/.localized/el.strings
+	new file:   Movies/TV/Previous Libraries.localized/.localized/en.strings
+	new file:   Movies/TV/Previous Libraries.localized/.localized/en_AU.strings
+	new file:   Movies/TV/Previous Libraries.localized/.localized/en_GB.strings
+	new file:   Movies/TV/Previous Libraries.localized/.localized/es.strings
+	new file:   Movies/TV/Previous Libraries.localized/.localized/es_419.strings
+	new file:   Movies/TV/Previous Libraries.localized/.localized/fi.strings
+	new file:   Movies/TV/Previous Libraries.localized/.localized/fr.strings
+	new file:   Movies/TV/Previous Libraries.localized/.localized/fr_CA.strings
+	new file:   Movies/TV/Previous Libraries.localized/.localized/he.strings
+	new file:   Movies/TV/Previous Libraries.localized/.localized/hi.strings
+	new file:   Movies/TV/Previous Libraries.localized/.localized/hr.strings
+	new file:   Movies/TV/Previous Libraries.localized/.localized/hu.strings
+	new file:   Movies/TV/Previous Libraries.localized/.localized/id.strings
+	new file:   Movies/TV/Previous Libraries.localized/.localized/it.strings
+	new file:   Movies/TV/Previous Libraries.localized/.localized/ja.strings
+	new file:   Movies/TV/Previous Libraries.localized/.localized/ko.strings
+	new file:   Movies/TV/Previous Libraries.localized/.localized/ms.strings
+	new file:   Movies/TV/Previous Libraries.localized/.localized/nl.strings
+	new file:   Movies/TV/Previous Libraries.localized/.localized/no.strings
+	new file:   Movies/TV/Previous Libraries.localized/.localized/pl.strings
+	new file:   Movies/TV/Previous Libraries.localized/.localized/pt.strings
+	new file:   Movies/TV/Previous Libraries.localized/.localized/pt_PT.strings
+	new file:   Movies/TV/Previous Libraries.localized/.localized/ro.strings
+	new file:   Movies/TV/Previous Libraries.localized/.localized/ru.strings
+	new file:   Movies/TV/Previous Libraries.localized/.localized/sk.strings
+	new file:   Movies/TV/Previous Libraries.localized/.localized/sv.strings
+	new file:   Movies/TV/Previous Libraries.localized/.localized/th.strings
+	new file:   Movies/TV/Previous Libraries.localized/.localized/tr.strings
+	new file:   Movies/TV/Previous Libraries.localized/.localized/uk.strings
+	new file:   Movies/TV/Previous Libraries.localized/.localized/vi.strings
+	new file:   Movies/TV/Previous Libraries.localized/.localized/zh_CN.strings
+	new file:   Movies/TV/Previous Libraries.localized/.localized/zh_HK.strings
+	new file:   Movies/TV/Previous Libraries.localized/.localized/zh_TW.strings
+	new file:   Movies/TV/Previous Libraries.localized/TV Library [2024-01-01 16.23.41].tvlibrary/Application.tvdb
+	new file:   Movies/TV/Previous Libraries.localized/TV Library [2024-01-01 16.23.41].tvlibrary/Library Preferences.tvdb
+	new file:   Movies/TV/Previous Libraries.localized/TV Library [2024-01-01 16.23.41].tvlibrary/Library.tvdb
+	new file:   Movies/TV/Previous Libraries.localized/TV Library [2024-01-01 16.23.41].tvlibrary/Preferences.plist
+	new file:   Movies/TV/Previous Libraries.localized/TV Library [2025-09-20 13.04.25].tvlibrary/Application.tvdb
+	new file:   Movies/TV/Previous Libraries.localized/TV Library [2025-09-20 13.04.25].tvlibrary/Library Preferences.tvdb
+	new file:   Movies/TV/Previous Libraries.localized/TV Library [2025-09-20 13.04.25].tvlibrary/Library.tvdb
+	new file:   Movies/TV/Previous Libraries.localized/TV Library [2025-09-20 13.04.25].tvlibrary/Preferences.plist
+	new file:   Movies/TV/TV Library.tvlibrary/Application.tvdb
+	new file:   Movies/TV/TV Library.tvlibrary/Library Preferences.tvdb
+	new file:   Movies/TV/TV Library.tvlibrary/Library.tvdb
+	new file:   Movies/TV/TV Library.tvlibrary/Preferences.plist
+	new file:   Movies/VN/1739796576216757.mp4
+	new file:   Music/.localized
+	new file:   Music/Music/Media.localized/.Media Preferences.plist
+	new file:   Music/Music/Media.localized/.localized/ar.strings
+	new file:   Music/Music/Media.localized/.localized/ca.strings
+	new file:   Music/Music/Media.localized/.localized/cs.strings
+	new file:   Music/Music/Media.localized/.localized/da.strings
+	new file:   Music/Music/Media.localized/.localized/de.strings
+	new file:   Music/Music/Media.localized/.localized/el.strings
+	new file:   Music/Music/Media.localized/.localized/en.strings
+	new file:   Music/Music/Media.localized/.localized/en_AU.strings
+	new file:   Music/Music/Media.localized/.localized/en_GB.strings
+	new file:   Music/Music/Media.localized/.localized/es.strings
+	new file:   Music/Music/Media.localized/.localized/es_419.strings
+	new file:   Music/Music/Media.localized/.localized/fi.strings
+	new file:   Music/Music/Media.localized/.localized/fr.strings
+	new file:   Music/Music/Media.localized/.localized/fr_CA.strings
+	new file:   Music/Music/Media.localized/.localized/he.strings
+	new file:   Music/Music/Media.localized/.localized/hi.strings
+	new file:   Music/Music/Media.localized/.localized/hr.strings
+	new file:   Music/Music/Media.localized/.localized/hu.strings
+	new file:   Music/Music/Media.localized/.localized/id.strings
+	new file:   Music/Music/Media.localized/.localized/it.strings
+	new file:   Music/Music/Media.localized/.localized/ja.strings
+	new file:   Music/Music/Media.localized/.localized/ko.strings
+	new file:   Music/Music/Media.localized/.localized/ms.strings
+	new file:   Music/Music/Media.localized/.localized/nl.strings
+	new file:   Music/Music/Media.localized/.localized/no.strings
+	new file:   Music/Music/Media.localized/.localized/pl.strings
+	new file:   Music/Music/Media.localized/.localized/pt.strings
+	new file:   Music/Music/Media.localized/.localized/pt_PT.strings
+	new file:   Music/Music/Media.localized/.localized/ro.strings
+	new file:   Music/Music/Media.localized/.localized/ru.strings
+	new file:   Music/Music/Media.localized/.localized/sk.strings
+	new file:   Music/Music/Media.localized/.localized/sv.strings
+	new file:   Music/Music/Media.localized/.localized/th.strings
+	new file:   Music/Music/Media.localized/.localized/tr.strings
+	new file:   Music/Music/Media.localized/.localized/uk.strings
+	new file:   Music/Music/Media.localized/.localized/vi.strings
+	new file:   Music/Music/Media.localized/.localized/zh_CN.strings
+	new file:   Music/Music/Media.localized/.localized/zh_HK.strings
+	new file:   Music/Music/Media.localized/.localized/zh_TW.strings
+	new file:   Music/Music/Media.localized/Automatically Add to Music.localized/.localized/ar.strings
+	new file:   Music/Music/Media.localized/Automatically Add to Music.localized/.localized/ca.strings
+	new file:   Music/Music/Media.localized/Automatically Add to Music.localized/.localized/cs.strings
+	new file:   Music/Music/Media.localized/Automatically Add to Music.localized/.localized/da.strings
+	new file:   Music/Music/Media.localized/Automatically Add to Music.localized/.localized/de.strings
+	new file:   Music/Music/Media.localized/Automatically Add to Music.localized/.localized/el.strings
+	new file:   Music/Music/Media.localized/Automatically Add to Music.localized/.localized/en.strings
+	new file:   Music/Music/Media.localized/Automatically Add to Music.localized/.localized/en_AU.strings
+	new file:   Music/Music/Media.localized/Automatically Add to Music.localized/.localized/en_GB.strings
+	new file:   Music/Music/Media.localized/Automatically Add to Music.localized/.localized/es.strings
+	new file:   Music/Music/Media.localized/Automatically Add to Music.localized/.localized/es_419.strings
+	new file:   Music/Music/Media.localized/Automatically Add to Music.localized/.localized/fi.strings
+	new file:   Music/Music/Media.localized/Automatically Add to Music.localized/.localized/fr.strings
+	new file:   Music/Music/Media.localized/Automatically Add to Music.localized/.localized/fr_CA.strings
+	new file:   Music/Music/Media.localized/Automatically Add to Music.localized/.localized/he.strings
+	new file:   Music/Music/Media.localized/Automatically Add to Music.localized/.localized/hi.strings
+	new file:   Music/Music/Media.localized/Automatically Add to Music.localized/.localized/hr.strings
+	new file:   Music/Music/Media.localized/Automatically Add to Music.localized/.localized/hu.strings
+	new file:   Music/Music/Media.localized/Automatically Add to Music.localized/.localized/id.strings
+	new file:   Music/Music/Media.localized/Automatically Add to Music.localized/.localized/it.strings
+	new file:   Music/Music/Media.localized/Automatically Add to Music.localized/.localized/ja.strings
+	new file:   Music/Music/Media.localized/Automatically Add to Music.localized/.localized/ko.strings
+	new file:   Music/Music/Media.localized/Automatically Add to Music.localized/.localized/ms.strings
+	new file:   Music/Music/Media.localized/Automatically Add to Music.localized/.localized/nl.strings
+	new file:   Music/Music/Media.localized/Automatically Add to Music.localized/.localized/no.strings
+	new file:   Music/Music/Media.localized/Automatically Add to Music.localized/.localized/pl.strings
+	new file:   Music/Music/Media.localized/Automatically Add to Music.localized/.localized/pt.strings
+	new file:   Music/Music/Media.localized/Automatically Add to Music.localized/.localized/pt_PT.strings
+	new file:   Music/Music/Media.localized/Automatically Add to Music.localized/.localized/ro.strings
+	new file:   Music/Music/Media.localized/Automatically Add to Music.localized/.localized/ru.strings
+	new file:   Music/Music/Media.localized/Automatically Add to Music.localized/.localized/sk.strings
+	new file:   Music/Music/Media.localized/Automatically Add to Music.localized/.localized/sv.strings
+	new file:   Music/Music/Media.localized/Automatically Add to Music.localized/.localized/th.strings
+	new file:   Music/Music/Media.localized/Automatically Add to Music.localized/.localized/tr.strings
+	new file:   Music/Music/Media.localized/Automatically Add to Music.localized/.localized/uk.strings
+	new file:   Music/Music/Media.localized/Automatically Add to Music.localized/.localized/vi.strings
+	new file:   Music/Music/Media.localized/Automatically Add to Music.localized/.localized/zh_CN.strings
+	new file:   Music/Music/Media.localized/Automatically Add to Music.localized/.localized/zh_HK.strings
+	new file:   Music/Music/Media.localized/Automatically Add to Music.localized/.localized/zh_TW.strings
+	new file:   "Music/Music/Media.localized/Music/Unknown Artist/Unknown Album/\320\224\320\270\320\260\320\273\320\276\320\263.MP3"
+	new file:   Music/Music/Music Library.musiclibrary/Application.musicdb
+	new file:   Music/Music/Music Library.musiclibrary/Extras.itdb
+	new file:   Music/Music/Music Library.musiclibrary/Genius.itdb
+	new file:   Music/Music/Music Library.musiclibrary/Library Preferences.musicdb
+	new file:   Music/Music/Music Library.musiclibrary/Library.musicdb
+	new file:   Music/Music/Music Library.musiclibrary/Preferences.plist
+	new file:   Music/Music/Music Library.musiclibrary/com.apple.MusicKit/downloaded_catalog_data/MusicCatalogData.db
+	new file:   Music/Music/Music Library.musiclibrary/com.apple.MusicKit/downloaded_catalog_data/MusicCatalogData.db-shm
+	new file:   Music/Music/Music Library.musiclibrary/com.apple.MusicKit/downloaded_catalog_data/MusicCatalogData.db-wal
+	new file:   Music/Music/Music Library.musiclibrary/sentinel
+	new file:   Music/Music/Previous Libraries.localized/.localized/ar.strings
+	new file:   Music/Music/Previous Libraries.localized/.localized/ca.strings
+	new file:   Music/Music/Previous Libraries.localized/.localized/cs.strings
+	new file:   Music/Music/Previous Libraries.localized/.localized/da.strings
+	new file:   Music/Music/Previous Libraries.localized/.localized/de.strings
+	new file:   Music/Music/Previous Libraries.localized/.localized/el.strings
+	new file:   Music/Music/Previous Libraries.localized/.localized/en.strings
+	new file:   Music/Music/Previous Libraries.localized/.localized/en_AU.strings
+	new file:   Music/Music/Previous Libraries.localized/.localized/en_GB.strings
+	new file:   Music/Music/Previous Libraries.localized/.localized/es.strings
+	new file:   Music/Music/Previous Libraries.localized/.localized/es_419.strings
+	new file:   Music/Music/Previous Libraries.localized/.localized/fi.strings
+	new file:   Music/Music/Previous Libraries.localized/.localized/fr.strings
+	new file:   Music/Music/Previous Libraries.localized/.localized/fr_CA.strings
+	new file:   Music/Music/Previous Libraries.localized/.localized/he.strings
+	new file:   Music/Music/Previous Libraries.localized/.localized/hi.strings
+	new file:   Music/Music/Previous Libraries.localized/.localized/hr.strings
+	new file:   Music/Music/Previous Libraries.localized/.localized/hu.strings
+	new file:   Music/Music/Previous Libraries.localized/.localized/id.strings
+	new file:   Music/Music/Previous Libraries.localized/.localized/it.strings
+	new file:   Music/Music/Previous Libraries.localized/.localized/ja.strings
+	new file:   Music/Music/Previous Libraries.localized/.localized/ko.strings
+	new file:   Music/Music/Previous Libraries.localized/.localized/ms.strings
+	new file:   Music/Music/Previous Libraries.localized/.localized/nl.strings
+	new file:   Music/Music/Previous Libraries.localized/.localized/no.strings
+	new file:   Music/Music/Previous Libraries.localized/.localized/pl.strings
+	new file:   Music/Music/Previous Libraries.localized/.localized/pt.strings
+	new file:   Music/Music/Previous Libraries.localized/.localized/pt_PT.strings
+	new file:   Music/Music/Previous Libraries.localized/.localized/ro.strings
+	new file:   Music/Music/Previous Libraries.localized/.localized/ru.strings
+	new file:   Music/Music/Previous Libraries.localized/.localized/sk.strings
+	new file:   Music/Music/Previous Libraries.localized/.localized/sv.strings
+	new file:   Music/Music/Previous Libraries.localized/.localized/th.strings
+	new file:   Music/Music/Previous Libraries.localized/.localized/tr.strings
+	new file:   Music/Music/Previous Libraries.localized/.localized/uk.strings
+	new file:   Music/Music/Previous Libraries.localized/.localized/vi.strings
+	new file:   Music/Music/Previous Libraries.localized/.localized/zh_CN.strings
+	new file:   Music/Music/Previous Libraries.localized/.localized/zh_HK.strings
+	new file:   Music/Music/Previous Libraries.localized/.localized/zh_TW.strings
+	new file:   Music/Music/Previous Libraries.localized/Music Library [2024-01-01 16.23.41].musiclibrary/Application.musicdb
+	new file:   Music/Music/Previous Libraries.localized/Music Library [2024-01-01 16.23.41].musiclibrary/Extras.itdb
+	new file:   Music/Music/Previous Libraries.localized/Music Library [2024-01-01 16.23.41].musiclibrary/Genius.itdb
+	new file:   Music/Music/Previous Libraries.localized/Music Library [2024-01-01 16.23.41].musiclibrary/Library Preferences.musicdb
+	new file:   Music/Music/Previous Libraries.localized/Music Library [2024-01-01 16.23.41].musiclibrary/Library.musicdb
+	new file:   Music/Music/Previous Libraries.localized/Music Library [2024-01-01 16.23.41].musiclibrary/Preferences.plist
+	new file:   Music/Music/Previous Libraries.localized/Music Library [2024-01-01 16.23.41].musiclibrary/sentinel
+	new file:   Music/Music/Previous Libraries.localized/Music Library [2025-09-18 11.33.15].musiclibrary/Application.musicdb
+	new file:   Music/Music/Previous Libraries.localized/Music Library [2025-09-18 11.33.15].musiclibrary/Extras.itdb
+	new file:   Music/Music/Previous Libraries.localized/Music Library [2025-09-18 11.33.15].musiclibrary/Genius.itdb
+	new file:   Music/Music/Previous Libraries.localized/Music Library [2025-09-18 11.33.15].musiclibrary/Library Preferences.musicdb
+	new file:   Music/Music/Previous Libraries.localized/Music Library [2025-09-18 11.33.15].musiclibrary/Library.musicdb
+	new file:   Music/Music/Previous Libraries.localized/Music Library [2025-09-18 11.33.15].musiclibrary/Preferences.plist
+	new file:   Music/Music/Previous Libraries.localized/Music Library [2025-09-18 11.33.15].musiclibrary/sentinel
+	new file:   Pictures/.localized
+	new file:   "Pictures/\320\244\320\276\321\202\320\276\321\202\320\265\320\272\320\260 Photo Booth/Contents/PkgInfo"
+	new file:   "Pictures/\320\244\320\276\321\202\320\276\321\202\320\265\320\272\320\260 Photo Booth/Pictures/\320\244\320\276\321\202\320\276 10.04.24 \320\276 14.08.jpg"
+	new file:   "Pictures/\320\244\320\276\321\202\320\276\321\202\320\265\320\272\320\260 Photo Booth/Pictures/\320\244\320\276\321\202\320\276 10.04.24 \320\276 14.09 #2.jpg"
+	new file:   "Pictures/\320\244\320\276\321\202\320\276\321\202\320\265\320\272\320\260 Photo Booth/Pictures/\320\244\320\276\321\202\320\276 10.04.24 \320\276 14.09.jpg"
+	new file:   "Pictures/\320\244\320\276\321\202\320\276\321\202\320\265\320\272\320\260 Photo Booth/Pictures/\320\244\320\276\321\202\320\276 10.04.24 \320\276 14.10.jpg"
+	new file:   "Pictures/\320\244\320\276\321\202\320\276\321\202\320\265\320\272\320\260 Photo Booth/Pictures/\320\244\320\276\321\202\320\276 10.04.24 \320\276 14.13.jpg"
+	new file:   "Pictures/\320\244\320\276\321\202\320\276\321\202\320\265\320\272\320\260 Photo Booth/Pictures/\320\244\320\276\321\202\320\276 10.04.24 \320\276 15.11 #2.jpg"
+	new file:   "Pictures/\320\244\320\276\321\202\320\276\321\202\320\265\320\272\320\260 Photo Booth/Pictures/\320\244\320\276\321\202\320\276 10.04.24 \320\276 15.11.jpg"
+	new file:   "Pictures/\320\244\320\276\321\202\320\276\321\202\320\265\320\272\320\260 Photo Booth/Recents.plist"
+	new file:   Public/.localized
+	new file:   Public/Drop Box/.localized
+	new file:   a.out
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   .zsh_history
+	deleted:    .zsh_sessions/3E6BACB3-0BA5-4EC3-BCBD-522F433A4523.historynew
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.zsh_sessions/3E6BACB3-0BA5-4EC3-BCBD-522F433A4523.history
+	.zsh_sessions/3E6BACB3-0BA5-4EC3-BCBD-522F433A4523.session
+	.zsh_sessions/7666FF82-58CA-40E1-B31C-E240F5ED27ED.historynew
+	Desktop/
+	Library/
+	"eval \"$(ssh-agent -s)\""
+	"eval \"$(ssh-agent -s)\".pub"
+	"\321\201\320\273\321\226\320\277\320\270\320\271 \320\264\321\200\321\203\320\272/"
+
+admin@MacBook-Air-admin ~ % git  add .zsh_history
+admin@MacBook-Air-admin ~ % git  add .zsh_sessions/3E6BACB3-0BA5-4EC3-BCBD-522F433A4523.historynew
+admin@MacBook-Air-admin ~ % git add .zsh_sessions/3E6BACB3-0BA5-4EC3-BCBD-522F433A4523.history
+admin@MacBook-Air-admin ~ % git add     .zsh_sessions/3E6BACB3-0BA5-4EC3-BCBD-522F433A4523.session
+admin@MacBook-Air-admin ~ % git add .zsh_sessions/7666FF82-58CA-40E1-B31C-E240F5ED27ED.historynew
+admin@MacBook-Air-admin ~ % git add Desktop/
+error: 'Desktop/c++/' does not have a commit checked out
+fatal: adding files failed
+admin@MacBook-Air-admin ~ % git status
+warning: could not open directory 'Pictures/Photos Library.photoslibrary/': Operation not permitted
+warning: could not open directory '.Trash/': Operation not permitted
+warning: could not open directory 'Documents/': Operation not permitted
+warning: could not open directory 'Downloads/': Operation not permitted
+On branch main
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	modified:   .zsh_history
+	new file:   .zsh_sessions/3E6BACB3-0BA5-4EC3-BCBD-522F433A4523.history
+	new file:   .zsh_sessions/3E6BACB3-0BA5-4EC3-BCBD-522F433A4523.session
+	new file:   .zsh_sessions/68593E61-8412-452B-8962-E04DF7A41A5A.history
+	new file:   .zsh_sessions/68593E61-8412-452B-8962-E04DF7A41A5A.session
+	renamed:    .zsh_sessions/9DE10BF1-AF4B-46FE-9B64-2868B731C3D3.historynew -> .zsh_sessions/7666FF82-58CA-40E1-B31C-E240F5ED27ED.historynew
+	new file:   .zsh_sessions/9DE10BF1-AF4B-46FE-9B64-2868B731C3D3.history
+	new file:   .zsh_sessions/9DE10BF1-AF4B-46FE-9B64-2868B731C3D3.session
+	new file:   Movies/.DS_Store
+	new file:   Movies/.localized
+	new file:   Movies/TV/.DS_Store
+	new file:   Movies/TV/Media.localized/.DS_Store
+	new file:   Movies/TV/Media.localized/.Media Preferences.plist
+	new file:   Movies/TV/Media.localized/.localized/ar.strings
+	new file:   Movies/TV/Media.localized/.localized/ca.strings
+	new file:   Movies/TV/Media.localized/.localized/cs.strings
+	new file:   Movies/TV/Media.localized/.localized/da.strings
+	new file:   Movies/TV/Media.localized/.localized/de.strings
+	new file:   Movies/TV/Media.localized/.localized/el.strings
+	new file:   Movies/TV/Media.localized/.localized/en.strings
+	new file:   Movies/TV/Media.localized/.localized/en_AU.strings
+	new file:   Movies/TV/Media.localized/.localized/en_GB.strings
+	new file:   Movies/TV/Media.localized/.localized/es.strings
+	new file:   Movies/TV/Media.localized/.localized/es_419.strings
+	new file:   Movies/TV/Media.localized/.localized/fi.strings
+	new file:   Movies/TV/Media.localized/.localized/fr.strings
+	new file:   Movies/TV/Media.localized/.localized/fr_CA.strings
+	new file:   Movies/TV/Media.localized/.localized/he.strings
+	new file:   Movies/TV/Media.localized/.localized/hi.strings
+	new file:   Movies/TV/Media.localized/.localized/hr.strings
+	new file:   Movies/TV/Media.localized/.localized/hu.strings
+	new file:   Movies/TV/Media.localized/.localized/id.strings
+	new file:   Movies/TV/Media.localized/.localized/it.strings
+	new file:   Movies/TV/Media.localized/.localized/ja.strings
+	new file:   Movies/TV/Media.localized/.localized/ko.strings
+	new file:   Movies/TV/Media.localized/.localized/ms.strings
+	new file:   Movies/TV/Media.localized/.localized/nl.strings
+	new file:   Movies/TV/Media.localized/.localized/no.strings
+	new file:   Movies/TV/Media.localized/.localized/pl.strings
+	new file:   Movies/TV/Media.localized/.localized/pt.strings
+	new file:   Movies/TV/Media.localized/.localized/pt_PT.strings
+	new file:   Movies/TV/Media.localized/.localized/ro.strings
+	new file:   Movies/TV/Media.localized/.localized/ru.strings
+	new file:   Movies/TV/Media.localized/.localized/sk.strings
+	new file:   Movies/TV/Media.localized/.localized/sv.strings
+	new file:   Movies/TV/Media.localized/.localized/th.strings
+	new file:   Movies/TV/Media.localized/.localized/tr.strings
+	new file:   Movies/TV/Media.localized/.localized/uk.strings
+	new file:   Movies/TV/Media.localized/.localized/vi.strings
+	new file:   Movies/TV/Media.localized/.localized/zh_CN.strings
+	new file:   Movies/TV/Media.localized/.localized/zh_HK.strings
+	new file:   Movies/TV/Media.localized/.localized/zh_TW.strings
+	new file:   Movies/TV/Media.localized/Automatically Add To TV.localized/.localized/ar.strings
+	new file:   Movies/TV/Media.localized/Automatically Add To TV.localized/.localized/ca.strings
+	new file:   Movies/TV/Media.localized/Automatically Add To TV.localized/.localized/cs.strings
+	new file:   Movies/TV/Media.localized/Automatically Add To TV.localized/.localized/da.strings
+	new file:   Movies/TV/Media.localized/Automatically Add To TV.localized/.localized/de.strings
+	new file:   Movies/TV/Media.localized/Automatically Add To TV.localized/.localized/el.strings
+	new file:   Movies/TV/Media.localized/Automatically Add To TV.localized/.localized/en.strings
+	new file:   Movies/TV/Media.localized/Automatically Add To TV.localized/.localized/en_AU.strings
+	new file:   Movies/TV/Media.localized/Automatically Add To TV.localized/.localized/en_GB.strings
+	new file:   Movies/TV/Media.localized/Automatically Add To TV.localized/.localized/es.strings
+	new file:   Movies/TV/Media.localized/Automatically Add To TV.localized/.localized/es_419.strings
+	new file:   Movies/TV/Media.localized/Automatically Add To TV.localized/.localized/fi.strings
+	new file:   Movies/TV/Media.localized/Automatically Add To TV.localized/.localized/fr.strings
+	new file:   Movies/TV/Media.localized/Automatically Add To TV.localized/.localized/fr_CA.strings
+	new file:   Movies/TV/Media.localized/Automatically Add To TV.localized/.localized/he.strings
+	new file:   Movies/TV/Media.localized/Automatically Add To TV.localized/.localized/hi.strings
+	new file:   Movies/TV/Media.localized/Automatically Add To TV.localized/.localized/hr.strings
+	new file:   Movies/TV/Media.localized/Automatically Add To TV.localized/.localized/hu.strings
+	new file:   Movies/TV/Media.localized/Automatically Add To TV.localized/.localized/id.strings
+	new file:   Movies/TV/Media.localized/Automatically Add To TV.localized/.localized/it.strings
+	new file:   Movies/TV/Media.localized/Automatically Add To TV.localized/.localized/ja.strings
+	new file:   Movies/TV/Media.localized/Automatically Add To TV.localized/.localized/ko.strings
+	new file:   Movies/TV/Media.localized/Automatically Add To TV.localized/.localized/ms.strings
+	new file:   Movies/TV/Media.localized/Automatically Add To TV.localized/.localized/nl.strings
+	new file:   Movies/TV/Media.localized/Automatically Add To TV.localized/.localized/no.strings
+	new file:   Movies/TV/Media.localized/Automatically Add To TV.localized/.localized/pl.strings
+	new file:   Movies/TV/Media.localized/Automatically Add To TV.localized/.localized/pt.strings
+	new file:   Movies/TV/Media.localized/Automatically Add To TV.localized/.localized/pt_PT.strings
+	new file:   Movies/TV/Media.localized/Automatically Add To TV.localized/.localized/ro.strings
+	new file:   Movies/TV/Media.localized/Automatically Add To TV.localized/.localized/ru.strings
+	new file:   Movies/TV/Media.localized/Automatically Add To TV.localized/.localized/sk.strings
+	new file:   Movies/TV/Media.localized/Automatically Add To TV.localized/.localized/sv.strings
+	new file:   Movies/TV/Media.localized/Automatically Add To TV.localized/.localized/th.strings
+	new file:   Movies/TV/Media.localized/Automatically Add To TV.localized/.localized/tr.strings
+	new file:   Movies/TV/Media.localized/Automatically Add To TV.localized/.localized/uk.strings
+	new file:   Movies/TV/Media.localized/Automatically Add To TV.localized/.localized/vi.strings
+	new file:   Movies/TV/Media.localized/Automatically Add To TV.localized/.localized/zh_CN.strings
+	new file:   Movies/TV/Media.localized/Automatically Add To TV.localized/.localized/zh_HK.strings
+	new file:   Movies/TV/Media.localized/Automatically Add To TV.localized/.localized/zh_TW.strings
+	new file:   Movies/TV/Previous Libraries.localized/.localized/ar.strings
+	new file:   Movies/TV/Previous Libraries.localized/.localized/ca.strings
+	new file:   Movies/TV/Previous Libraries.localized/.localized/cs.strings
+	new file:   Movies/TV/Previous Libraries.localized/.localized/da.strings
+	new file:   Movies/TV/Previous Libraries.localized/.localized/de.strings
+	new file:   Movies/TV/Previous Libraries.localized/.localized/el.strings
+	new file:   Movies/TV/Previous Libraries.localized/.localized/en.strings
+	new file:   Movies/TV/Previous Libraries.localized/.localized/en_AU.strings
+	new file:   Movies/TV/Previous Libraries.localized/.localized/en_GB.strings
+	new file:   Movies/TV/Previous Libraries.localized/.localized/es.strings
+	new file:   Movies/TV/Previous Libraries.localized/.localized/es_419.strings
+	new file:   Movies/TV/Previous Libraries.localized/.localized/fi.strings
+	new file:   Movies/TV/Previous Libraries.localized/.localized/fr.strings
+	new file:   Movies/TV/Previous Libraries.localized/.localized/fr_CA.strings
+	new file:   Movies/TV/Previous Libraries.localized/.localized/he.strings
+	new file:   Movies/TV/Previous Libraries.localized/.localized/hi.strings
+	new file:   Movies/TV/Previous Libraries.localized/.localized/hr.strings
+	new file:   Movies/TV/Previous Libraries.localized/.localized/hu.strings
+	new file:   Movies/TV/Previous Libraries.localized/.localized/id.strings
+	new file:   Movies/TV/Previous Libraries.localized/.localized/it.strings
+	new file:   Movies/TV/Previous Libraries.localized/.localized/ja.strings
+	new file:   Movies/TV/Previous Libraries.localized/.localized/ko.strings
+	new file:   Movies/TV/Previous Libraries.localized/.localized/ms.strings
+	new file:   Movies/TV/Previous Libraries.localized/.localized/nl.strings
+	new file:   Movies/TV/Previous Libraries.localized/.localized/no.strings
+	new file:   Movies/TV/Previous Libraries.localized/.localized/pl.strings
+	new file:   Movies/TV/Previous Libraries.localized/.localized/pt.strings
+	new file:   Movies/TV/Previous Libraries.localized/.localized/pt_PT.strings
+	new file:   Movies/TV/Previous Libraries.localized/.localized/ro.strings
+	new file:   Movies/TV/Previous Libraries.localized/.localized/ru.strings
+	new file:   Movies/TV/Previous Libraries.localized/.localized/sk.strings
+	new file:   Movies/TV/Previous Libraries.localized/.localized/sv.strings
+	new file:   Movies/TV/Previous Libraries.localized/.localized/th.strings
+	new file:   Movies/TV/Previous Libraries.localized/.localized/tr.strings
+	new file:   Movies/TV/Previous Libraries.localized/.localized/uk.strings
+	new file:   Movies/TV/Previous Libraries.localized/.localized/vi.strings
+	new file:   Movies/TV/Previous Libraries.localized/.localized/zh_CN.strings
+	new file:   Movies/TV/Previous Libraries.localized/.localized/zh_HK.strings
+	new file:   Movies/TV/Previous Libraries.localized/.localized/zh_TW.strings
+	new file:   Movies/TV/Previous Libraries.localized/TV Library [2024-01-01 16.23.41].tvlibrary/Application.tvdb
+	new file:   Movies/TV/Previous Libraries.localized/TV Library [2024-01-01 16.23.41].tvlibrary/Library Preferences.tvdb
+	new file:   Movies/TV/Previous Libraries.localized/TV Library [2024-01-01 16.23.41].tvlibrary/Library.tvdb
+	new file:   Movies/TV/Previous Libraries.localized/TV Library [2024-01-01 16.23.41].tvlibrary/Preferences.plist
+	new file:   Movies/TV/Previous Libraries.localized/TV Library [2025-09-20 13.04.25].tvlibrary/Application.tvdb
+	new file:   Movies/TV/Previous Libraries.localized/TV Library [2025-09-20 13.04.25].tvlibrary/Library Preferences.tvdb
+	new file:   Movies/TV/Previous Libraries.localized/TV Library [2025-09-20 13.04.25].tvlibrary/Library.tvdb
+	new file:   Movies/TV/Previous Libraries.localized/TV Library [2025-09-20 13.04.25].tvlibrary/Preferences.plist
+	new file:   Movies/TV/TV Library.tvlibrary/Application.tvdb
+	new file:   Movies/TV/TV Library.tvlibrary/Library Preferences.tvdb
+	new file:   Movies/TV/TV Library.tvlibrary/Library.tvdb
+	new file:   Movies/TV/TV Library.tvlibrary/Preferences.plist
+	new file:   Movies/VN/1739796576216757.mp4
+	new file:   Music/.localized
+	new file:   Music/Music/Media.localized/.Media Preferences.plist
+	new file:   Music/Music/Media.localized/.localized/ar.strings
+	new file:   Music/Music/Media.localized/.localized/ca.strings
+	new file:   Music/Music/Media.localized/.localized/cs.strings
+	new file:   Music/Music/Media.localized/.localized/da.strings
+	new file:   Music/Music/Media.localized/.localized/de.strings
+	new file:   Music/Music/Media.localized/.localized/el.strings
+	new file:   Music/Music/Media.localized/.localized/en.strings
+	new file:   Music/Music/Media.localized/.localized/en_AU.strings
+	new file:   Music/Music/Media.localized/.localized/en_GB.strings
+	new file:   Music/Music/Media.localized/.localized/es.strings
+	new file:   Music/Music/Media.localized/.localized/es_419.strings
+	new file:   Music/Music/Media.localized/.localized/fi.strings
+	new file:   Music/Music/Media.localized/.localized/fr.strings
+	new file:   Music/Music/Media.localized/.localized/fr_CA.strings
+	new file:   Music/Music/Media.localized/.localized/he.strings
+	new file:   Music/Music/Media.localized/.localized/hi.strings
+	new file:   Music/Music/Media.localized/.localized/hr.strings
+	new file:   Music/Music/Media.localized/.localized/hu.strings
+	new file:   Music/Music/Media.localized/.localized/id.strings
+	new file:   Music/Music/Media.localized/.localized/it.strings
+	new file:   Music/Music/Media.localized/.localized/ja.strings
+	new file:   Music/Music/Media.localized/.localized/ko.strings
+	new file:   Music/Music/Media.localized/.localized/ms.strings
+	new file:   Music/Music/Media.localized/.localized/nl.strings
+	new file:   Music/Music/Media.localized/.localized/no.strings
+	new file:   Music/Music/Media.localized/.localized/pl.strings
+	new file:   Music/Music/Media.localized/.localized/pt.strings
+	new file:   Music/Music/Media.localized/.localized/pt_PT.strings
+	new file:   Music/Music/Media.localized/.localized/ro.strings
+	new file:   Music/Music/Media.localized/.localized/ru.strings
+	new file:   Music/Music/Media.localized/.localized/sk.strings
+	new file:   Music/Music/Media.localized/.localized/sv.strings
+	new file:   Music/Music/Media.localized/.localized/th.strings
+	new file:   Music/Music/Media.localized/.localized/tr.strings
+	new file:   Music/Music/Media.localized/.localized/uk.strings
+	new file:   Music/Music/Media.localized/.localized/vi.strings
+	new file:   Music/Music/Media.localized/.localized/zh_CN.strings
+	new file:   Music/Music/Media.localized/.localized/zh_HK.strings
+	new file:   Music/Music/Media.localized/.localized/zh_TW.strings
+	new file:   Music/Music/Media.localized/Automatically Add to Music.localized/.localized/ar.strings
+	new file:   Music/Music/Media.localized/Automatically Add to Music.localized/.localized/ca.strings
+	new file:   Music/Music/Media.localized/Automatically Add to Music.localized/.localized/cs.strings
+	new file:   Music/Music/Media.localized/Automatically Add to Music.localized/.localized/da.strings
+	new file:   Music/Music/Media.localized/Automatically Add to Music.localized/.localized/de.strings
+	new file:   Music/Music/Media.localized/Automatically Add to Music.localized/.localized/el.strings
+	new file:   Music/Music/Media.localized/Automatically Add to Music.localized/.localized/en.strings
+	new file:   Music/Music/Media.localized/Automatically Add to Music.localized/.localized/en_AU.strings
+	new file:   Music/Music/Media.localized/Automatically Add to Music.localized/.localized/en_GB.strings
+	new file:   Music/Music/Media.localized/Automatically Add to Music.localized/.localized/es.strings
+	new file:   Music/Music/Media.localized/Automatically Add to Music.localized/.localized/es_419.strings
+	new file:   Music/Music/Media.localized/Automatically Add to Music.localized/.localized/fi.strings
+	new file:   Music/Music/Media.localized/Automatically Add to Music.localized/.localized/fr.strings
+	new file:   Music/Music/Media.localized/Automatically Add to Music.localized/.localized/fr_CA.strings
+	new file:   Music/Music/Media.localized/Automatically Add to Music.localized/.localized/he.strings
+	new file:   Music/Music/Media.localized/Automatically Add to Music.localized/.localized/hi.strings
+	new file:   Music/Music/Media.localized/Automatically Add to Music.localized/.localized/hr.strings
+	new file:   Music/Music/Media.localized/Automatically Add to Music.localized/.localized/hu.strings
+	new file:   Music/Music/Media.localized/Automatically Add to Music.localized/.localized/id.strings
+	new file:   Music/Music/Media.localized/Automatically Add to Music.localized/.localized/it.strings
+	new file:   Music/Music/Media.localized/Automatically Add to Music.localized/.localized/ja.strings
+	new file:   Music/Music/Media.localized/Automatically Add to Music.localized/.localized/ko.strings
+	new file:   Music/Music/Media.localized/Automatically Add to Music.localized/.localized/ms.strings
+	new file:   Music/Music/Media.localized/Automatically Add to Music.localized/.localized/nl.strings
+	new file:   Music/Music/Media.localized/Automatically Add to Music.localized/.localized/no.strings
+	new file:   Music/Music/Media.localized/Automatically Add to Music.localized/.localized/pl.strings
+	new file:   Music/Music/Media.localized/Automatically Add to Music.localized/.localized/pt.strings
+	new file:   Music/Music/Media.localized/Automatically Add to Music.localized/.localized/pt_PT.strings
+	new file:   Music/Music/Media.localized/Automatically Add to Music.localized/.localized/ro.strings
+	new file:   Music/Music/Media.localized/Automatically Add to Music.localized/.localized/ru.strings
+	new file:   Music/Music/Media.localized/Automatically Add to Music.localized/.localized/sk.strings
+	new file:   Music/Music/Media.localized/Automatically Add to Music.localized/.localized/sv.strings
+	new file:   Music/Music/Media.localized/Automatically Add to Music.localized/.localized/th.strings
+	new file:   Music/Music/Media.localized/Automatically Add to Music.localized/.localized/tr.strings
+	new file:   Music/Music/Media.localized/Automatically Add to Music.localized/.localized/uk.strings
+	new file:   Music/Music/Media.localized/Automatically Add to Music.localized/.localized/vi.strings
+	new file:   Music/Music/Media.localized/Automatically Add to Music.localized/.localized/zh_CN.strings
+	new file:   Music/Music/Media.localized/Automatically Add to Music.localized/.localized/zh_HK.strings
+	new file:   Music/Music/Media.localized/Automatically Add to Music.localized/.localized/zh_TW.strings
+	new file:   "Music/Music/Media.localized/Music/Unknown Artist/Unknown Album/\320\224\320\270\320\260\320\273\320\276\320\263.MP3"
+	new file:   Music/Music/Music Library.musiclibrary/Application.musicdb
+	new file:   Music/Music/Music Library.musiclibrary/Extras.itdb
+	new file:   Music/Music/Music Library.musiclibrary/Genius.itdb
+	new file:   Music/Music/Music Library.musiclibrary/Library Preferences.musicdb
+	new file:   Music/Music/Music Library.musiclibrary/Library.musicdb
+	new file:   Music/Music/Music Library.musiclibrary/Preferences.plist
+	new file:   Music/Music/Music Library.musiclibrary/com.apple.MusicKit/downloaded_catalog_data/MusicCatalogData.db
+	new file:   Music/Music/Music Library.musiclibrary/com.apple.MusicKit/downloaded_catalog_data/MusicCatalogData.db-shm
+	new file:   Music/Music/Music Library.musiclibrary/com.apple.MusicKit/downloaded_catalog_data/MusicCatalogData.db-wal
+	new file:   Music/Music/Music Library.musiclibrary/sentinel
+	new file:   Music/Music/Previous Libraries.localized/.localized/ar.strings
+	new file:   Music/Music/Previous Libraries.localized/.localized/ca.strings
+	new file:   Music/Music/Previous Libraries.localized/.localized/cs.strings
+	new file:   Music/Music/Previous Libraries.localized/.localized/da.strings
+	new file:   Music/Music/Previous Libraries.localized/.localized/de.strings
+	new file:   Music/Music/Previous Libraries.localized/.localized/el.strings
+	new file:   Music/Music/Previous Libraries.localized/.localized/en.strings
+	new file:   Music/Music/Previous Libraries.localized/.localized/en_AU.strings
+	new file:   Music/Music/Previous Libraries.localized/.localized/en_GB.strings
+	new file:   Music/Music/Previous Libraries.localized/.localized/es.strings
+	new file:   Music/Music/Previous Libraries.localized/.localized/es_419.strings
+	new file:   Music/Music/Previous Libraries.localized/.localized/fi.strings
+	new file:   Music/Music/Previous Libraries.localized/.localized/fr.strings
+	new file:   Music/Music/Previous Libraries.localized/.localized/fr_CA.strings
+	new file:   Music/Music/Previous Libraries.localized/.localized/he.strings
+	new file:   Music/Music/Previous Libraries.localized/.localized/hi.strings
+	new file:   Music/Music/Previous Libraries.localized/.localized/hr.strings
+	new file:   Music/Music/Previous Libraries.localized/.localized/hu.strings
+	new file:   Music/Music/Previous Libraries.localized/.localized/id.strings
+	new file:   Music/Music/Previous Libraries.localized/.localized/it.strings
+	new file:   Music/Music/Previous Libraries.localized/.localized/ja.strings
+	new file:   Music/Music/Previous Libraries.localized/.localized/ko.strings
+	new file:   Music/Music/Previous Libraries.localized/.localized/ms.strings
+	new file:   Music/Music/Previous Libraries.localized/.localized/nl.strings
+	new file:   Music/Music/Previous Libraries.localized/.localized/no.strings
+	new file:   Music/Music/Previous Libraries.localized/.localized/pl.strings
+	new file:   Music/Music/Previous Libraries.localized/.localized/pt.strings
+	new file:   Music/Music/Previous Libraries.localized/.localized/pt_PT.strings
+	new file:   Music/Music/Previous Libraries.localized/.localized/ro.strings
+	new file:   Music/Music/Previous Libraries.localized/.localized/ru.strings
+	new file:   Music/Music/Previous Libraries.localized/.localized/sk.strings
+	new file:   Music/Music/Previous Libraries.localized/.localized/sv.strings
+	new file:   Music/Music/Previous Libraries.localized/.localized/th.strings
+	new file:   Music/Music/Previous Libraries.localized/.localized/tr.strings
+	new file:   Music/Music/Previous Libraries.localized/.localized/uk.strings
+	new file:   Music/Music/Previous Libraries.localized/.localized/vi.strings
+	new file:   Music/Music/Previous Libraries.localized/.localized/zh_CN.strings
+	new file:   Music/Music/Previous Libraries.localized/.localized/zh_HK.strings
+	new file:   Music/Music/Previous Libraries.localized/.localized/zh_TW.strings
+	new file:   Music/Music/Previous Libraries.localized/Music Library [2024-01-01 16.23.41].musiclibrary/Application.musicdb
+	new file:   Music/Music/Previous Libraries.localized/Music Library [2024-01-01 16.23.41].musiclibrary/Extras.itdb
+	new file:   Music/Music/Previous Libraries.localized/Music Library [2024-01-01 16.23.41].musiclibrary/Genius.itdb
+	new file:   Music/Music/Previous Libraries.localized/Music Library [2024-01-01 16.23.41].musiclibrary/Library Preferences.musicdb
+	new file:   Music/Music/Previous Libraries.localized/Music Library [2024-01-01 16.23.41].musiclibrary/Library.musicdb
+	new file:   Music/Music/Previous Libraries.localized/Music Library [2024-01-01 16.23.41].musiclibrary/Preferences.plist
+	new file:   Music/Music/Previous Libraries.localized/Music Library [2024-01-01 16.23.41].musiclibrary/sentinel
+	new file:   Music/Music/Previous Libraries.localized/Music Library [2025-09-18 11.33.15].musiclibrary/Application.musicdb
+	new file:   Music/Music/Previous Libraries.localized/Music Library [2025-09-18 11.33.15].musiclibrary/Extras.itdb
+	new file:   Music/Music/Previous Libraries.localized/Music Library [2025-09-18 11.33.15].musiclibrary/Genius.itdb
+	new file:   Music/Music/Previous Libraries.localized/Music Library [2025-09-18 11.33.15].musiclibrary/Library Preferences.musicdb
+	new file:   Music/Music/Previous Libraries.localized/Music Library [2025-09-18 11.33.15].musiclibrary/Library.musicdb
+	new file:   Music/Music/Previous Libraries.localized/Music Library [2025-09-18 11.33.15].musiclibrary/Preferences.plist
+	new file:   Music/Music/Previous Libraries.localized/Music Library [2025-09-18 11.33.15].musiclibrary/sentinel
+	new file:   Pictures/.localized
+	new file:   "Pictures/\320\244\320\276\321\202\320\276\321\202\320\265\320\272\320\260 Photo Booth/Contents/PkgInfo"
+	new file:   "Pictures/\320\244\320\276\321\202\320\276\321\202\320\265\320\272\320\260 Photo Booth/Pictures/\320\244\320\276\321\202\320\276 10.04.24 \320\276 14.08.jpg"
+	new file:   "Pictures/\320\244\320\276\321\202\320\276\321\202\320\265\320\272\320\260 Photo Booth/Pictures/\320\244\320\276\321\202\320\276 10.04.24 \320\276 14.09 #2.jpg"
+	new file:   "Pictures/\320\244\320\276\321\202\320\276\321\202\320\265\320\272\320\260 Photo Booth/Pictures/\320\244\320\276\321\202\320\276 10.04.24 \320\276 14.09.jpg"
+	new file:   "Pictures/\320\244\320\276\321\202\320\276\321\202\320\265\320\272\320\260 Photo Booth/Pictures/\320\244\320\276\321\202\320\276 10.04.24 \320\276 14.10.jpg"
+	new file:   "Pictures/\320\244\320\276\321\202\320\276\321\202\320\265\320\272\320\260 Photo Booth/Pictures/\320\244\320\276\321\202\320\276 10.04.24 \320\276 14.13.jpg"
+	new file:   "Pictures/\320\244\320\276\321\202\320\276\321\202\320\265\320\272\320\260 Photo Booth/Pictures/\320\244\320\276\321\202\320\276 10.04.24 \320\276 15.11 #2.jpg"
+	new file:   "Pictures/\320\244\320\276\321\202\320\276\321\202\320\265\320\272\320\260 Photo Booth/Pictures/\320\244\320\276\321\202\320\276 10.04.24 \320\276 15.11.jpg"
+	new file:   "Pictures/\320\244\320\276\321\202\320\276\321\202\320\265\320\272\320\260 Photo Booth/Recents.plist"
+	new file:   Public/.localized
+	new file:   Public/Drop Box/.localized
+	new file:   a.out
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	Desktop/
+	Library/
+	"eval \"$(ssh-agent -s)\""
+	"eval \"$(ssh-agent -s)\".pub"
+	"\321\201\320\273\321\226\320\277\320\270\320\271 \320\264\321\200\321\203\320\272/"
+
+admin@MacBook-Air-admin ~ %         
